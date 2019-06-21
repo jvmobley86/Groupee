@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Groupee</title>
-<<<<<<< HEAD
     <!-- Added a link to Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -23,14 +22,6 @@
      <script type="text/javascript" src="assets/javascript/app.js"></script> 
     <!-- Added link to the jQuery library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-=======
-</head>
-
-<h1>Bryan test</h1>
-
-<body>
-
->>>>>>> 406232c9664ff9df69f6aae6d7adafc9db6afddf
 </body>
 
 </html>
