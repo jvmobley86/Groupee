@@ -117,9 +117,9 @@ $.ajax({
     url: queryURL,
     method: "GET"
 }).then(function (response) {
-    console.log(response._embedded.attractions[0].id)
+    console.log(response)
+    // var artistId = response._embedded.attractions[0].id
 
-    //var result = response.
 });
 
 // trim venue information to cities near Dallas
