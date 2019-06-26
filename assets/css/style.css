@@ -1,3 +1,17 @@
+
+
+    .map{
+        position: absolute;
+        min-height: 100vh;
+        bottom: 0;
+        right: 0;
+
+    }
+    .message{
+        text-align: center;
+        
+    }
+
 h1 {
     text-align: center;
 }
@@ -99,3 +113,4 @@ h2 {
         bottom: 10px;
         z-index: -1;
       }
+
