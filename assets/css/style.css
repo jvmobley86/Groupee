@@ -7,13 +7,17 @@
         
 
     }
-.message{
-   text-align: center;
+.message {
+   text-align: center !important;
         
   }
 
 h1 {
     text-align: center;
+}
+h3 {
+  color: white;
+  text-align: center;
 }
 
 .header-image{
@@ -21,7 +25,9 @@ background: url('../images/concert.gif')!important;
 background-size: cover !important;
     
 }
-
+.footer{
+  background-color: white !important;
+}
 h2 {
     color: white;
     text-size: 44px;
