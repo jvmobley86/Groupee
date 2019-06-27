@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script>"https://cdnjs.cloudflare.com/ajax/libs/jquery-json/2.6.0/jquery.json.min.js"</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -17,82 +17,78 @@
 </head>
 
 <body>
-  
-<div class="ui menu inverted vertical labeled">
-        <a class="item">
-                <img class="ui tiny avatar image" src="assets/images/groupeetransp.png">
-                <h3>YOU FOLLOW</h3>
+
+    <div class="ui menu inverted vertical labeled">
+        <div id="h3">
+            <img class="ui tiny avatar image" src="assets/images/groupeetransp.png">
+            <h3>YOU FOLLOW</h3>
             </a>
-            <a class="item">
+            <a href="https://twitter.com/Reddsaidit" class="item">
                 <img class="ui avatar image" src="assets/images/cr.jpg">
                 Chris Redd
             </a>
-            <a class="item">
+            <a href="https://twitter.com/missjillscott" class="item">
                 <img class="ui avatar image" src="assets/images/js.jpeg">
                 Jill Scott
             </a>
-            <a class="item">
-                <img class="ui avatar image" src="assets/images/wwe.jpg">
-                WWE
-            </a>
-            <a class="item">
+            <a href="https://twitter.com/thegreatkhalid" class="item">
                 <img class="ui avatar image" src="assets/images/kh.jpg">
                 Khalid
             </a>
-            <a class="item">
+            <a href="https://twitter.com/nicolebyer" class="item">
                 <img class="ui avatar image" src="assets/images/nb.jpeg">
                 Nicole Byer
             </a>
-            <a class="item">
+            <a href="https://twitter.com/MarlonWayans" class="item">
                 <img class="ui avatar image" src="assets/images/mw.jpg">
                 Marlon Wayans
             </a>
-            <a class="item">
+            <a href="https://twitter.com/natashaleggero" class="item">
                 <img class="ui avatar image" src="assets/images/nl.jpg">
                 Natasha Leggero
             </a>
-            <a class="item">
+            <a href="https://twitter.com/backstreetboys" class="item">
                 <img class="ui avatar image" src="assets/images/bb.jpg">
                 Backstreet Boys
             </a>
-            <a class="item">
+            <a href="https://twitter.com/maryjblige" class="item">
                 <img class="ui avatar image" src="assets/images/mjb.png">
                 Mary J. Blige
             </a>
-            <a class="item">
+            <a href="https://twitter.com/hardwick" class="item">
                 <img class="ui avatar image" src="assets/images/ch.jpg">
                 Chris Hardwick
             </a>
-</div>
-<div class="message">
-<div class="ui inverted massive message">
-        <i class="star yellow outline icon"></i>
-        <i class="star yellow outline icon"></i>
-        <i class="star yellow outline icon"></i>
-        <i class="star yellow outline icon"></i>
-        ENJOY YOUR SHOW
-        <i class="star yellow outline icon"></i>
-        <i class="star yellow outline icon"></i>
-        <i class="star yellow outline icon"></i>
-        <i class="star yellow outline icon"></i>
-      </div>
-    </div> 
+            <!-- <div>
+                <p id="location"></p>
+                <div id="map"></div>
+        </div> -->
 
-<div class="ui container grid map">
-<div class="colunm">    
-        <div class="map" w-type="map" w-tmapikey="eyAxFU6bJI5DbKGIOKnrAd38BP42m5kf"
-        w-googleapikey="AIzaSyBuDw4YtUuzZMNw8z6mHn5P4E3iUyHfjqQ" w-keyword="" w-theme="simple" w-colorscheme="light"
-        w-width="1500" w-height="1000" w-size="50" w-border="1" w-borderradius="50" w-radius="50" w-period="year"
-        w-layout="horizontal"
-        w-attractionid="K8vZ9171lO7,K8vZ9174tq7,K8vZ917pAdf,K8vZ917uJkV,K8vZ917f9T7,K8vZ917u6-0,K8vZ917GtZV,K8vZ91719tf,K8vZ9171h2f,K8vZ91715ZV"
-        w-promoterid="" w-venueid="" w-affiliateid="" w-segmentid="" w-proportion="custom" w-geoposition="off"
-        w-source="ticketmaster" w-country="" w-latlong="32.7766642,-96.7969879"></div>
+            <div id="map" w-type="map" w-tmapikey="PwjOqJ1ArxVSVKKV4d5it1cg9HXjOLXA"
+                w-googleapikey="AIzaSyDoj9XhOXHarxJ9tdW8x46eqvtm9oRR8-s" w-keyword="" w-theme="simple"
+                w-colorscheme="light" w-width="1400" w-height="1000" w-size="25" w-border="1" w-borderradius="4"
+                w-radius="50" w-period="year" w-layout="vertical"
+                w-attractionid="K8vZ9171lO7,K8vZ917pAdf,K8vZ917GtZV,K8vZ9174tq7,K8vZ917f9T7,K8vZ917u6-0,K8vZ91719tf,K8vZ91739Nf"
+                w-promoterid="" w-venueid="" w-affiliateid="" w-segmentid="" w-proportion="custom" w-geoposition="on"
+                w-source="ticketmaster" w-latlong="32.8412,-96.7845"></div>
+
+        </div>
+    </div>
+    <div class="message">
+        <div class="ui inverted massive message">
+            <i class="star yellow outline icon"></i>
+            <i class="star yellow outline icon"></i>
+            <i class="star yellow outline icon"></i>
+            <i class="star yellow outline icon"></i>
+            ENJOY YOUR SHOW
+            <i class="star yellow outline icon"></i>
+            <i class="star yellow outline icon"></i>
+            <i class="star yellow outline icon"></i>
+            <i class="star yellow outline icon"></i>
+        </div>
     </div>
 
-</div>
 
-
-</div>
     <div class="ui modal">
         <i class="close icon"></i>
         <div class="header">
@@ -115,19 +111,44 @@
                 Keep Image
                 <i class="checkmark icon"></i>
             </div>
-            
         </div>
-        
+
+    </div>
+    <div class="ui vertical footer segment">
+        <div class="ui container">
+            <div class="ui stackable  divided equal height stackable grid">
+                <div class="three wide column">
+                    <h4 class="ui header">Become Our Groupee</h4>
+                    <div class="ui link list">
+                        <a href="https://twitter.com/TheGroupeeApp?s=17"> Follow Us <i class="twitter icon"></i></a>
+                        <div></div>
+                        <a href="https://www.instagram.com/thegroupeeapp/"> Double Tap <i
+                                class="instagram icon"></i></a>
+
+                    </div>
+
+                </div>
+                <div class="seven wide column">
+                    <h4 class="ui header">How are we doing?</h4>
+                    <p>Follow us and slide into our DMs.<br>
+                        We'd love to know what you think about us.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>$('.ui.modal')
+            .modal('show')
+            ;</script>
 </body>
 
-<script>
-$('.ui.modal')
-  .modal('show')
-;
 
-</script>
 <!--Ticketmaster Scripts-->
 <script src="assets/javascript/app.js"></script>
+<!--Google API-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoj9XhOXHarxJ9tdW8x46eqvtm9oRR8-s&callback=initMap" async
+    defer></script>
+<script
+    src="https://ticketmaster-api-staging.github.io/products-and-docs/widgets/map/1.0.0/lib/main-widget.js"></script>
+
 
 </html>
-
